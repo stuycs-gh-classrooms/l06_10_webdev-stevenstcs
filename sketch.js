@@ -13,13 +13,13 @@ function draw() {
     background(155);
         
     if (x < 201){
-     fill(#FF0F0F);
+     fill(255,0,0);
     }
       else if (x < 401){
-       fill(#4AFF0F);
+       fill(0,255,0);
       }
         else{
-         fill(#0F31FF);
+         fill(0,0,255);
         }
     if (x > 600){
        x = 0;
